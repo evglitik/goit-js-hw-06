@@ -17,7 +17,7 @@ function createBoxes(amount) {
     let sizeElement = (i + 3) * 10;
 
     arrayNewElements.push(
-      `<div style="background-color: ${getRandomHexColor()}; width: ${sizeElement}px; height: ${sizeElement}px; margin: 3px;"></div>`
+      `<div style="background-color: ${getRandomHexColor()}; width: ${sizeElement}px; height: ${sizeElement}px; margin: 3px; border-radius: 4%"></div>`
     );
   }
 
